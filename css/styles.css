@@ -1,6 +1,7 @@
  body {
   background-image: url("../img/bg.jpg");
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
 }
 
 .top-top {
@@ -27,7 +28,7 @@
 }
 
 .background {
-  background-color: rgba(168, 214, 162, .30);
+  /*background-color: rgba(168, 214, 162, .30);*/
 }
 
 .projects {
@@ -39,14 +40,19 @@
 }
 
 .about-me {
-  background-color: rgba(168, 214, 162, .25);
+  /*background-color: rgba(168, 214, 162, .25);*/
 }
 
 .skills {
-  text-align: center;
-  margin: 0 auto;
-  width: 50%;
   background-color: rgba(168, 214, 162, .20);
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
 }
 
 .float-left {
