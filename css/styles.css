@@ -1,0 +1,58 @@
+ body {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.top-top {
+  /*outline: dotted;*/
+  background-color: rgba(168, 214, 162, .65);
+  text-align: center;
+}
+
+.top-bottom {
+  /*outline: dotted;*/
+  background-color: rgba(168, 214, 162, .45);
+}
+
+#job-title {
+  margin-top: -10px;
+}
+
+#safi-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.background {
+  background-color: rgba(168, 214, 162, .30);
+}
+
+.projects {
+  /*background-color: rgba(168, 214, 162, .30);*/
+}
+
+.hobbies-interests {
+  /*background-color: rgba(168, 214, 162, .30);*/
+}
+
+.about-me {
+  background-color: rgba(168, 214, 162, .25);
+}
+
+.skills {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(168, 214, 162, .20);
+}
+
+.float-left {
+  float: left;
+  /*background-color: rgba(168, 214, 162, .30);*/
+  /*list-style-image: inherit;*/
+  /*display: inline-block;*/
+  /*padding: 10px;*/
+}
