@@ -1,18 +1,17 @@
  body {
   background-image: url("../img/bg.jpg");
-  /*background-repeat: no-repeat;*/
   background-size: cover;
 }
 
 .top-top {
-  /*outline: dotted;*/
-  background-color: rgba(168, 214, 162, .65);
+  background-color: white;
   text-align: center;
+  background-color: rgba(168, 214, 162, .45);
 }
 
 .top-bottom {
-  /*outline: dotted;*/
   background-color: rgba(168, 214, 162, .45);
+  margin-top: -5px;
 }
 
 #job-title {
@@ -27,24 +26,16 @@
   max-height: 25%;
 }
 
-.background {
-  /*background-color: rgba(168, 214, 162, .30);*/
+.sections {
+  background-color: rgba(168, 214, 162, .30);
 }
 
-.projects {
-  /*background-color: rgba(168, 214, 162, .30);*/
-}
-
-.hobbies-interests {
-  /*background-color: rgba(168, 214, 162, .30);*/
-}
-
-.about-me {
-  /*background-color: rgba(168, 214, 162, .25);*/
+#sections-margin {
+  margin-top: 20px;
 }
 
 .skills {
-  background-color: rgba(168, 214, 162, .20);
+  margin-top: -20px;
 }
 
 h3 {
@@ -53,12 +44,13 @@ h3 {
 
 p {
   text-align: justify;
+  padding: 10px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .float-left {
   float: left;
-  /*background-color: rgba(168, 214, 162, .30);*/
-  /*list-style-image: inherit;*/
-  /*display: inline-block;*/
-  /*padding: 10px;*/
 }
